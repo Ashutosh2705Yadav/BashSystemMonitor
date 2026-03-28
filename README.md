@@ -13,6 +13,4 @@ chmod +x monitor.sh
 Tech Used
 	•	Bash scripting
 	•	Linux commands
----
-
-# 💼 Step 8: LinkedIn Post (Use Thi
+-------------------------------
