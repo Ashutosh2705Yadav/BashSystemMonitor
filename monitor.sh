@@ -5,7 +5,7 @@ LOG_FILE="system.log"
 # Function: Header
 print_header() {
   echo "-----------------------------"
-  echo " DevOps System Monitor 🚀"
+  echo " DevOps System Monitor "
   echo "-----------------------------"
 }
 
@@ -20,7 +20,7 @@ cpu_usage() {
   echo "CPU Usage: $cpu%"
 
   if [ "${cpu%.*}" -gt 80 ]; then
-    echo "⚠️ High CPU usage!"
+    echo "High CPU usage!"
   fi
 }
 
